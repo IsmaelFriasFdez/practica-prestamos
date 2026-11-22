@@ -1,0 +1,17 @@
+{
+  "name": "practica-prestamos",
+  "version": "1.0.0",
+  "description": "DWES UD4 · Gestión de préstamos de material informático",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "init-db": "node --env-file=.env src/init-db.mjs",
+    "start": "node --env-file=.env src/server.mjs",
+    "comprobar": "node --env-file=.env pruebas/comprobar.mjs"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "pg": "^8.16.0"
+  }
+}
